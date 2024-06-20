@@ -38,7 +38,7 @@ const UserCard = ({ user, onUpdate, onDelete }) => {
     <>
       <Card
         className="card-container"
-        cover={<img alt="User Avatar" src={`https://api.dicebear.com/9.x/personas/svg?seed=${user.name}`} />}
+        cover={<img alt="User Avatar" src={`https://api.dicebear.com/9.x/personas/svg?seed=${user.username}`} />}
         actions={[
           <Button type="link" icon={isLiked ? <HeartFilled style={{ color: 'red' }} /> : <HeartOutlined style={{ color: 'red' }} />} onClick={toggleLike} />,
           <Button type="link" icon={<EditOutlined className='icon' />} onClick={showModal} />,
