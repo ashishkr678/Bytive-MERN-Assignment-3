@@ -36,7 +36,7 @@ const UserList = () => {
     {loading ? (
       <LoadingIndicator/>
     ):(
-      <Row gutter={[16, 16]}>
+      <Row gutter={[16, 16]} justify = {'center'}>
       {users.map(user => (
         <Col key={user._id}>
           <UserCard user={user} onUpdate={handleUpdate} onDelete={handleDelete} />
