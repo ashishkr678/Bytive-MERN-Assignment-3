@@ -21,7 +21,7 @@ app.get("/",(req,res) => {
 })
 
 const userRouters = require("./UserRoute");
-app.use("/api/users", userRouters);
+app.use("/users", userRouters);
 
 
 module.exports = app;
