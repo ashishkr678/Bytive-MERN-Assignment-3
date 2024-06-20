@@ -7,8 +7,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
-/*   margin-left: 10px;
-  margin-right: 10px; */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card-container {
